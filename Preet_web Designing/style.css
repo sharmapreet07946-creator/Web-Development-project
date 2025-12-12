@@ -1,0 +1,180 @@
+body {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(to bottom right, #ffffff, #faf7f2); /* ivory blend */
+    margin: 0;
+    padding: 0;
+    color: #444444;
+     header {
+    background-color: #fceff4;  /* very light blush pink */
+    padding: 30px;
+    text-align: center;
+    color: #444444;
+    font-size: 34px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #f7e4ea; /* soft pink ivory line */
+}
+/* Reviews Page Styling */
+
+.review-header {
+    background-color: #ff9bb3;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+.review-header h1 {
+    font-size: 45px;
+    margin: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ffd4e1;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    margin: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+/* Review Cards */
+.reviews-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px;
+}
+
+.review-card {
+    width: 320px;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.review-card:hover {
+    transform: scale(1.05);
+}
+
+.review-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #ff9bb3;
+    margin-bottom: 15px;
+}
+
+.review-card h3 {
+    margin: 10px 0 5px;
+    font-size: 22px;
+}
+
+.stars {
+    font-size: 22px;
+    color: gold;
+    margin-bottom: 10px;
+}
+
+.review-card p {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.5;
+}
+}
+nav {
+    text-align: center;
+    background: #fae8ee; /* faint pink + ivory */
+    padding: 5px;
+    border-bottom: 1px solid #eedde2;
+}
+
+nav a {
+    margin: 18px;
+    text-decoration: none;
+    color: #444444;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #8f8a83; /* soft taupe grey */
+    
+}
+.container {
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+h2 {
+    color: #555555;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.card {
+    width: 350px;
+    background: #ffffff; /* clean white */
+    padding: 22px;
+    border-radius: 14px;
+    box-shadow: 0px 0px 15px rgba(240, 200, 215, 0.25); /* pinkish soft glow */
+    margin: 20px;
+    display: inline-block;
+    border: 1px solid #f3dce4; /* blush border */
+    color: #444444;
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    border: 1px solid #f3dce4; /* blush tint */
+}
+
+button {
+    background-color: #f7e4ea; /* blush ivory */
+    color: #444444;
+    padding: 12px 22px;
+    border: none;
+    font-size: 18px;
+    margin-top: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f2d5df; /* slightly richer blush */
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #e8d2db;
+    border-radius: 6px;
+    background-color: #fdf7f9; /* almost white-pink */
+    color: #444444;
+}
+
+input:focus {
+    outline: none;
+    border-color: #e3c0cd; /* soft rose */
+}
+
+.error {
+    color: #cc2f2f; /* red error message */
+    font-size: 14px;
+}
